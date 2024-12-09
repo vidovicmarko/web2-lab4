@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bcbcbc;
+}
+header {
+    background-color: #264627;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto; 
+}
+.filters button {
+    padding: 10px 20px;
+    background-color: #264827;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+    background-color: #000000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.gallery, .lebron-gallery {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

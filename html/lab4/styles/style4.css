@@ -1,0 +1,21 @@
+header h1 {
+    display: inline-block;
+    position: relative;
+}
+
+header h1::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    right: -5px;
+    animation: blink 0.5s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
